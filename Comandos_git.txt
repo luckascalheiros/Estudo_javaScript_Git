@@ -29,6 +29,11 @@ Configuração -
 
 
 git init - Inicia o repositório Git ao projeto
-git add - Adiciona arquivo ao index
+git add nome_arquivo.txt - Adiciona arquivo ao index
+    git add * - Adiciona todos os arquivos ao index
+
 git status - verifica arquivos que foram indexados
-git commit - Adiciona arquivos indexados ao repositório local .git
+git commit -m "Comentário claro da altração" - Adiciona arquivos indexados ao repositório local .git
+
+git log - Exibo todos com commits
+    git log --oneline - informações redumidas dos commits
