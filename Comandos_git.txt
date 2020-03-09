@@ -1,0 +1,34 @@
+*** Comandos cmd ***
+
+cd - Exibe diretório atual
+csl - limpara prompt de comando
+
+dir - exibe arquivos do diretório
+    dir /b /a
+    dir /b - Exibi uma lista simples de diretórios
+    dir /a - Exibi arquicos ocultos
+
+
+
+
+
+*** Comandos Git ***
+
+
+git version - Exibe versão do Git
+
+Configuração - 
+    git config --global user.name "Lucas Calheiros" - Adiona seu nome ao projeto
+    git config user.name - exibe nome do usauario do projeto
+
+    git config --global user.email "luccascalheiros@gmail.com" - define email
+    git config user.email - exibe email do usuario
+
+    git config --global core.editor "caminho do executavel" - define o editor de texto padrão
+    git config core.editor - Exibe Editor padão
+
+
+git init - Inicia o repositório Git ao projeto
+git add - Adiciona arquivo ao index
+git status - verifica arquivos que foram indexados
+git commit - Adiciona arquivos indexados ao repositório local .git
