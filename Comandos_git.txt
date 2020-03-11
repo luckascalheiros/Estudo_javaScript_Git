@@ -37,3 +37,5 @@ git commit -m "Comentário claro da altração" - Adiciona arquivos indexados ao
 
 git log - Exibo todos com commits
     git log --oneline - informações redumidas dos commits
+    git log --graph - Cria um grafico dos commits do projeto
+    log --oneline --graph - Junção das duas funções
