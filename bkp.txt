@@ -1,0 +1,46 @@
+*** Comandos cmd ***
+
+cd - Exibe diretório atual
+csl - limpara prompt de comando
+
+dir - exibe arquivos do diretório
+    dir /b /a
+    dir /b - Exibi uma lista simples de diretórios
+    dir /a - Exibi arquicos ocultos
+
+
+
+
+
+*** Comandos Git ***
+
+
+git version - Exibe versão do Git
+
+Configuração - 
+    git config --global user.name "Lucas Calheiros" - Adiona seu nome ao projeto
+    git config user.name - exibe nome do usauario do projeto
+
+    git config --global user.email "luccascalheiros@gmail.com" - define email
+    git config user.email - exibe email do usuario
+
+    git config --global core.editor "caminho do executavel" - define o editor de texto padrão
+    git config core.editor - Exibe Editor padão
+
+
+git init - Inicia o repositório Git ao projeto
+git add nome_arquivo.txt - Adiciona arquivo ao index
+    git add * - Adiciona todos os arquivos ao index
+
+git status - verifica arquivos que foram indexados
+
+git commit -m "Comentário claro da altração" - Adiciona arquivos indexados ao repositório local .git
+    git commit -am "descrição daas funções de log" - a função am permit gravar o commit já executando o git add
+
+
+git log - Exibo todos com commits
+    git log --oneline - informações redumidas dos commits
+    git log --graph - Cria um grafico dos commits do projeto
+    log --oneline --graph - Junção das duas funções
+
+git branch - Identifica em qual branch o projeto está, a branch é a ramificaçção do projeto, a master é a branch principal
