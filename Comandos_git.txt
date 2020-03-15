@@ -44,7 +44,8 @@ git log - Exibo todos com commits
 git branch - Identifica em qual branch o projeto está, a branch é a ramificaçção do projeto, a master é a branch principal
 
 git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
-git checkout master - Volta o projeto para o ultimo commit
+    git checkout master - Volta o projeto para o ultimo commit
+    git checkout nome_do_arquivo.txt - Volta estado do arquivo ao ultimo commit
 
 git diff - exibe modificações no projeto antes que não estão no branch
 
