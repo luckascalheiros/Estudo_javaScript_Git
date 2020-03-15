@@ -10,8 +10,6 @@ dir - exibe arquivos do diretório
 
 
 
-
-
 *** Comandos Git ***
 
 
@@ -44,3 +42,8 @@ git log - Exibo todos com commits
     log --oneline --graph - Junção das duas funções
 
 git branch - Identifica em qual branch o projeto está, a branch é a ramificaçção do projeto, a master é a branch principal
+
+git checkout 77a4675 - selecioona uma versão do projeto
+git checkout master - Volta o projeto para o ultimo commit
+
+
