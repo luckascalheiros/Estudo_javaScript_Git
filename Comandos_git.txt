@@ -50,6 +50,4 @@ git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
 git diff - exibe modificações no projeto antes que não estão no branch
 
 
-
-
-
+git reset HEAD
