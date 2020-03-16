@@ -68,4 +68,8 @@ git merge nome_brabch - uni e faz a fusão do brabch com a master
     Accept Both Changes - Manter as duas Modificações
     Compare Changes - comparação refinada do código
 
-git remote
+git remote - Verifica se existe repositório remoto - origin
+    git remote add origin https://github.com/luckascalheiros/Estudo_javaScript_Git.git - Adicona repositório local ao repositório remoto do github
+    git remote -v - detalhes dos repositorio remoto
+
+git push -u origin master - envia projeto da branch master para repositório remoto origin
