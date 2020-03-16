@@ -42,6 +42,7 @@ git log - Exibo todos com commits
     git log --oneline - informações redumidas dos commits
     git log --graph - Cria um grafico dos commits do projeto
     log --oneline --graph - Junção das duas funções
+    git log --oneline --graph --all - Exibi grafico com todos os commit e as branchs criadas (--all)
 
 git branch - Identifica em qual branch o projeto está, a branch é a ramificação do projeto, a master é a branch principal
 
@@ -58,6 +59,12 @@ git diff - exibe modificações no projeto antes que não estão no branch
 git reset HEAD - retira modificações do conteiner git add
 git reset HEAD nome_do_arquivo.txt - Retira modificações do conteiner de arquivo especifico
 
-moficação do ramo master
 git reset --hard c4f186f - Volta a versão e apaga os demais commits (cuidado ao usar)
 
+
+git merge nome_brabch - uni e faz a fusão do brabch com a master
+    Resolução de conflitos:
+    Accept Current Change -  Manter os conflitos da branch master
+    Accept Incoming Change - Manter as modificações da branch secundária
+    Accept Both Changes - Manter as duas Modificações
+    Compare Changes - comparação refinada do código

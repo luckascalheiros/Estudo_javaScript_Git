@@ -1,1 +1,0 @@
-git log --oneline --graph --all - Exibi todos os commit e as branchs criadas
