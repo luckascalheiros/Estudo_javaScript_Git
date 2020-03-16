@@ -50,4 +50,5 @@ git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
 git diff - exibe modificações no projeto antes que não estão no branch
 
 
-git reset HEAD
+git reset HEAD - retira modificações do conteiner git add
+git reset HEAD nome_do_arquivo.txt - Retira modificações do conteiner de arquivo especifico
