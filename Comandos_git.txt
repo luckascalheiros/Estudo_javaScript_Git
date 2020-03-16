@@ -48,6 +48,7 @@ git branch - Identifica em qual branch o projeto está, a branch é a ramificaç
 git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
     git checkout master - Volta o projeto para o ultimo commit
     git checkout nome_do_arquivo.txt - Volta estado do arquivo ao ultimo commit
+    git checkout -b nome_nova_branch - Criar uma nova ramificação nova branch
     
 git diff - exibe modificações no projeto antes que não estão no branch
 
