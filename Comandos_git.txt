@@ -47,7 +47,6 @@ git log - Exibo todos com commits
 git branch - Identifica em qual branch o projeto está, a branch é a ramificação do projeto, a master é a branch principal
 
 
-
 git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
     git checkout master - Volta o projeto para o ultimo commit
     git checkout nome_do_arquivo.txt - Volta estado do arquivo ao ultimo commit
@@ -55,16 +54,18 @@ git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
     
 git diff - exibe modificações no projeto antes que não estão no branch
 
-
 git reset HEAD - retira modificações do conteiner git add
 git reset HEAD nome_do_arquivo.txt - Retira modificações do conteiner de arquivo especifico
 
 git reset --hard c4f186f - Volta a versão e apaga os demais commits (cuidado ao usar)
 
 
+git checkout -b nome_nova_branch - Criar uma nova ramificação nova branch
 git merge nome_brabch - uni e faz a fusão do brabch com a master
     Resolução de conflitos:
     Accept Current Change -  Manter os conflitos da branch master
     Accept Incoming Change - Manter as modificações da branch secundária
     Accept Both Changes - Manter as duas Modificações
     Compare Changes - comparação refinada do código
+
+git remote
