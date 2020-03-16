@@ -8,6 +8,8 @@ dir - exibe arquivos do diretório
     dir /b - Exibi uma lista simples de diretórios
     dir /a - Exibi arquicos ocultos
 
+q - pressiona a tecla quando o terminal trava
+
 
 
 *** Comandos Git ***
