@@ -73,3 +73,4 @@ git remote - Verifica se existe repositório remoto - origin
     git remote -v - detalhes dos repositorio remoto
 
 git push -u origin master - envia projeto da branch master para repositório remoto origin
+    git push - envia modificações após projeto já sincronizado
