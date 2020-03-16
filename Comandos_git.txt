@@ -41,14 +41,18 @@ git log - Exibo todos com commits
     git log --graph - Cria um grafico dos commits do projeto
     log --oneline --graph - Junção das duas funções
 
-git branch - Identifica em qual branch o projeto está, a branch é a ramificaçção do projeto, a master é a branch principal
+git branch - Identifica em qual branch o projeto está, a branch é a ramificação do projeto, a master é a branch principal
+
+
 
 git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
     git checkout master - Volta o projeto para o ultimo commit
     git checkout nome_do_arquivo.txt - Volta estado do arquivo ao ultimo commit
-
+    
 git diff - exibe modificações no projeto antes que não estão no branch
 
 
 git reset HEAD - retira modificações do conteiner git add
 git reset HEAD nome_do_arquivo.txt - Retira modificações do conteiner de arquivo especifico
+git reset --hard c4f186f - Volta a versão e apaga os demais commits (cuidado ao usar)
+
