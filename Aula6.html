@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Java Script Curso em Video</title>
+
+    <style>
+
+        /*Comantário em CSS*/
+        body {
+            background-color: rgb(161, 202, 255);
+            color: white;
+            font: normal 20pt calibri;                       
+        }
+
+        h1{
+            color: rgb(91, 121, 255);
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <!--Comentário em html-->
+    <h1>Olá, mundo!</h1>
+    <p>Primeira linha de código</p>
+
+    <script>
+
+        //Operadoeres e conversão de variaveis
+
+        var  n1, n2, adicao, subtracao, mult, divisao, potencia, nome
+
+        //Number.parseInt(n1) - converte pra Inteiro
+        //Number.parseFloat(n1) - converte para Float
+        
+        nome = window.prompt('Qual é o seu nome?')
+        
+
+        n1 = Number.parseInt(window.prompt('Digite um numero:'))//recebe uma String e converte em numero
+        n2 = Number.parseInt(window.prompt('Digite outro numero:'))
+        
+        Number(n)//converte para numero e java identifica o tipo
+
+
+        adicao = n1 + n2 //adição
+        subtracao = n1 - n2//subitração
+        mult = n1 * n2//multiplicação
+        divisao = n1 / n2//divisão
+        potencia = n1 ** n2//potenciação
+
+        
+        //Conversões de numero em String
+        adicao.toString()
+        String(adicao)
+
+        //Tratamento de String
+        window.alert(`Seu nome maiusculo é ${nome.toUpperCase()}`)//letras Maiusculas
+        window.alert(`Seu nome minusculo é ${nome.toLowerCase()}`)//Letras Minusculas
+        window.alert(`Seu nome tem ${nome.length} letras`)//Quantidade de caracteres
+
+
+
+        window.alert(`A soma de ${n1} + ${n2} é ${adicao}`)
+        window.alert(`A subritração de ${n1} - ${n2} é ${subtracao}`)
+        window.alert(`A Multiplicação de ${n1} e ${n2} é ${mult}`)
+        window.alert(`A Divisão de ${n1} por ${n2} é ${divisão}`)
+        window.alert(`A Potenciação de ${n1} por ${n2} é ${potencia}`)
+        
+        
+    </script>
+    
+</body>
+</html>
