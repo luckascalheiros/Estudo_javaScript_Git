@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#area {
+            font: normal 15pt calibri;
+            background: rgb(219, 87, 160);/*cor da font*/
+            color: white;/*cor da font*/
+            width: 200px;/*largura*/
+            height: 200px;/*altura*/
+            line-height: 200px;/*altura da linha*/
+            text-align: center;/*alinhamento do texto*/
+
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        <!--<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> forma de chamar eventos em html-->
+        
+        interaja...
+
+    </div>
+    <div>Uma outra div qualquer</div>
+
+    <script>
+
+        //função
+        var d = window.document.getElementById('area')
+        d.addEventListener('click', clicar)
+        d.addEventListener('mouseenter', entrar)
+        d.addEventListener('mouseout', sair)
+
+
+        function clicar() {                     
+            d.innerText = 'Mouse Clicou!'
+        }
+
+        function entrar() {          
+            d.innerText = 'Mouse entrou!'
+            d.style.background = 'rgb(219, 87, 160)'
+        }
+
+        function sair() {
+            d.innerText = 'Mouse saiu!'
+            d.style.background = 'red'
+        }
+
+
+    </script>
+
+</body>
+</html>
