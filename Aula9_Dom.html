@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background: rgb(162, 199, 255);
+        color: white;
+        font: normal 14pt calibri;
+
+    }
+
+
+
+
+</style>
+
+</head>
+<body>
+    <h1>Iniciando estudodos de Dom</h1>
+    <p>Aqui estão os dados da <strong>DOM</strong> no meu site</strong></p>
+    <div id = "msg">Clique aqui</div>
+
+
+        <script>
+            var corpo = window.document.body//define elemento da dom como objeto pra manipular propriedades
+            var p1 = window.document.getElementsByTagName('p')[0]//pega elementos da Dom pelo nome da Tag
+
+            window.document.write(`esta escrito no paragrafo1: ${p1.innerText} <br/>`)//InerText pega o testo da tg p
+            window.document.write('esta escrito no paragrafo2: ' + p1.innerHTML)//innerHTML pega o conteudo formatado do paragrafo
+            //window.alert(p1.innerHTML)//as tegs aparecem pois o alert não reconhece as tgs html
+
+            //definindo estilos
+            p1.style.color = 'blue'
+            corpo.style.background = 'black'
+
+            window.document.write(window.document.URL)
+            window.alert(p1.getElementsByTagName('strong')[0].innerText)
+
+            //pegar elementos pelo ID e modificar conteudo
+            var d = window.document.getElementById('msg')//.innerText = 'modifiou para: olá'
+            d.innerText = 'modificado para olá 2'
+
+            var s = window.document.querySelector('div#msg')//div é o elemento e msg o Id # representa o ID se for "." é crasse
+            s.style.color = 'yellow'
+
+
+
+        </script>
+</body>
+</html>

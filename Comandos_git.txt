@@ -49,6 +49,7 @@ git branch - Identifica em qual branch o projeto está, a branch é a ramificaç
 
 git checkout 77a4675 - selecioona uma versão do projeto de acordo com o commit
     git checkout master - Volta o projeto para o ultimo commit
+    git checkout nome_branch - Deixa o projeto na branch
     git checkout nome_do_arquivo.txt - Volta estado do arquivo ao ultimo commit
     git checkout -b nome_nova_branch - Criar uma nova ramificação nova branch
     
@@ -74,3 +75,5 @@ git remote - Verifica se existe repositório remoto - origin
 
 git push -u origin master - envia projeto da branch master para repositório remoto origin
     git push - envia modificações após projeto já sincronizado
+
+git pull - Atualiza alterações no diretório remoto para o diretório local
